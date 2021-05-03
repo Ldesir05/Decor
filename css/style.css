@@ -249,7 +249,7 @@ blockquote {
 /*-----------------------------------------------------------------------------------*/
 
 #main-slider-page {
-    min-height: 350px;
+    min-height: 310px;
     z-index: 2 !important;
 }
 
@@ -1501,8 +1501,8 @@ img.author-box-image {
 }
 
 #content-wrapper section {
-  padding-top: 60px;
-  padding-bottom: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -2101,16 +2101,16 @@ img.author-box-image {
 
 
 .mb0 {
-  margin-bottom: 0 !important;
+    margin-bottom: 0 !important;
 }
 
 .section-inner {
-  padding-top: 60px;
-  padding-bottom: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .section-inner.gap {
-  margin-bottom: 0 !important;
+    margin-bottom: 0 !important;
 }
 
 .navbar-header h1 {
@@ -2122,7 +2122,7 @@ img.author-box-image {
 }
 
 .navbar-inverse .navbar-nav {
-  margin-top: 0px;
+    margin-top: 0px;
     margin-bottom: 0px;
 }
 
@@ -2172,12 +2172,12 @@ img.author-box-image {
     font-size: 14px;
     letter-spacing: 2px;
     display: block;
-    text-transform: uppercase;  
+    text-transform: uppercase;
 }
 
 .overlay .btn-outlined.btn-primary {
-  background-color: #fff;
-  border-color: #fff;
+    background-color: #fff;
+    border-color: #fff;
 }
 
 .post .content {
@@ -2204,11 +2204,11 @@ img.author-box-image {
 }
 
 .section-heading p {
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 #content-wrapper {
-  box-shadow: none;
+    box-shadow: none;
 }
 
 .navbar-inverse .navbar-nav .dropdown-menu > li > a {
@@ -2220,7 +2220,7 @@ img.author-box-image {
 }
 
 #single-page-slider {
-  min-height: 310px !important;
+    min-height: 310px !important;
 }
 
 #main-slider .carousel .btn {
@@ -2283,10 +2283,10 @@ img.author-box-image {
 }
 
 #testimonials-slider h4 {
-     font-weight: 400;
+    font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 14px;   
+    font-size: 14px;
 }
 
 .search-trigger {
@@ -2304,5 +2304,3 @@ img.author-box-image {
         position: relative !important;
     }
 }
-
-

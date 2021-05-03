@@ -27,26 +27,9 @@
     jQuery(document).ready(function($){
 	'use strict';
       	jQuery('body').backstretch([
-	        "images/logo.jpg",
+            "images/bg/bg1.jpg",
 	    ], {duration: 5000, fade: 500, centeredY: true });
 
-		$("#mapwrapper").gMap({ controls: false,
-         	scrollwheel: false,
-         	markers: [{
-              	latitude:40.7566,
-				longitude: -73.9863,
-          	icon: { image: "images/marker.png",
-              	iconsize: [44,44],
-          		iconanchor: [12,46],
-          		infowindowanchor: [12, 0] } }],
-          	icon: {
-              	image: "images/marker.png",
-             	iconsize: [26, 46],
-              	iconanchor: [12, 46],
-              	infowindowanchor: [12, 0] },
-         	latitude:40.7566,
-         	longitude: -73.9863,
-          	zoom: 14 });
     });
     </script>
 </head><!--/head-->
@@ -301,39 +284,6 @@
 
         <section id="stats" class="divider-section">
             <div class="gap"></div>
-<!--            <div class="container">-->
-<!--                <div class="row">-->
-<!--                    <div class="col-md-3 col-xs-6">-->
-<!--                        <div class="center bounce-in">-->
-<!--                            <span class="stat-icon"><span class="pe-7s-timer bounce-in"></span></span>-->
-<!--                            <h1><span class="counter">246000</span></h1>-->
-<!--                            <h3>HOURS SAVED</h3>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="col-md-3 col-xs-6">-->
-<!--                        <div class="center bounce-in">-->
-<!--                            <span class="stat-icon"><span class="pe-7s-light bounce-in"></span></span>-->
-<!--                            <h1><span class="counter">16875</span></h1>-->
-<!--                            <h3>FRESH IDEAS</h3>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="col-md-3 col-xs-6">-->
-<!--                        <div class="center bounce-in">-->
-<!--                            <span class="stat-icon"><span class="pe-7s-graph1 bounce-in"></span></span>-->
-<!--                            <h1><span class="counter">99999999</span></h1>-->
-<!--                            <h3>HUGE PROFIT</h3>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="col-md-3 col-xs-6">-->
-<!--                        <div class="center bounce-in">-->
-<!--                            <span class="stat-icon"><span class="pe-7s-box2 bounce-in"></span></span>-->
-<!--                            <h1><span class="counter">54875</span></h1>-->
-<!--                            <h3>THINGS IN BOXES</h3>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-            <div class="gap"></div>
         </section>
 
         <section id="portfolio" class="white">
@@ -342,94 +292,77 @@
 		        	<div class="center gap fade-down section-heading">
 		                <h2 class="main-title">Examples Of Our Work</h2>
 		                <hr>
-		                <p>We Create, You Celebrate!</p>
 		            </div>
-                    <ul class="portfolio-filter fade-down center">
-                        <li><a class="btn btn-outlined btn-primary active" href="#" data-filter="*">All</a></li>
-                        <li><a class="btn btn-outlined btn-primary" href="#" data-filter=".apps">Apps</a></li>
-                        <li><a class="btn btn-outlined btn-primary" href="#" data-filter=".nature">Nature</a></li>
-                        <li><a class="btn btn-outlined btn-primary" href="#" data-filter=".design">Design</a></li>
-                    </ul><!--/#portfolio-filter-->
-
                     <ul class="portfolio-items col-3 isotope fade-up">
                         <li class="portfolio-item apps isotope-item">
                             <div class="item-inner">
-                                <img src="images/portfolio/folio01.jpg" alt="">
-                                <h5>Portfolio Project</h5>
+                                <img src="images/portfolio/pf2.jpg" alt="">
                                 <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio01.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                                    <a class="preview btn btn-outlined btn-primary" href="images/portfolio/pf2.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                                 </div>
                             </div>
                         </li><!--/.portfolio-item-->
                         <li class="portfolio-item joomla nature isotope-item">
                             <div class="item-inner">
-                                <img src="images/portfolio/folio02.jpg" alt="">
-                                <h5>Portfolio Project</h5>
+                                <img src="images/portfolio/pf1.jpg" alt="">
                                 <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio02.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                                    <a class="preview btn btn-outlined btn-primary" href="images/portfolio/pf1.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                                 </div>
                             </div>
                         </li><!--/.portfolio-item-->
                         <li class="portfolio-item bootstrap design isotope-item">
                             <div class="item-inner">
-                                <img src="images/portfolio/folio03.jpg" alt="">
-                                <h5>Portfolio Project</h5>
+                                <img src="images/portfolio/pf3.jpg" alt="">
                                 <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio03.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                                    <a class="preview btn btn-outlined btn-primary" href="images/portfolio/pf3.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                                 </div>
                             </div>
                         </li><!--/.portfolio-item-->
                         <li class="portfolio-item joomla design apps isotope-item">
                             <div class="item-inner">
-                                <img src="images/portfolio/folio04.jpg" alt="">
-                                <h5>Portfolio Project</h5>
+                                <img src="images/portfolio/pf4.png" alt="">
                                 <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio04.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                                    <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio04.png" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                                 </div>
                             </div>
                         </li><!--/.portfolio-item-->
                         <li class="portfolio-item joomla apps isotope-item">
                             <div class="item-inner">
-                                <img src="images/portfolio/folio05.jpg" alt="">
-                                <h5>Portfolio Project</h5>
+                                <img src="images/portfolio/pf5.png" alt="">
                                 <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio05.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                                    <a class="preview btn btn-outlined btn-primary" href="images/portfolio/pf5.png" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                                 </div>
                             </div>
                         </li><!--/.portfolio-item-->
                         <li class="portfolio-item wordpress nature isotope-item">
                             <div class="item-inner">
-                                <img src="images/portfolio/folio06.jpg" alt="">
-                                <h5>Portfolio Project</h5>
+                                <img src="images/portfolio/pf6.png" alt="">
                                 <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio06.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                                    <a class="preview btn btn-outlined btn-primary" href="images/portfolio/pf6.png" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                                 </div>
                             </div>
                         </li><!--/.portfolio-item-->
                         <li class="portfolio-item joomla design apps isotope-item">
                             <div class="item-inner">
-                                <img src="images/portfolio/folio07.jpg" alt="">
-                                <h5>Portfolio Project</h5>
+                                <img src="images/portfolio/pf7.png" alt="">
                                 <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio07.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                                    <a class="preview btn btn-outlined btn-primary" href="images/portfolio/pf7.png" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                                 </div>
                             </div>
                         </li><!--/.portfolio-item-->
                         <li class="portfolio-item joomla nature isotope-item">
                             <div class="item-inner">
-                                <img src="images/portfolio/folio08.jpg" alt="">
-                                <h5>Portfolio Project</h5>
+                                <img src="images/portfolio/pf8.png" alt="">
                                 <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio08.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                                    <a class="preview btn btn-outlined btn-primary" href="images/portfolio/pf8.png" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                                 </div>
                             </div>
                         </li><!--/.portfolio-item-->
                         <li class="portfolio-item wordpress design isotope-item">
                             <div class="item-inner">
-                                <img src="images/portfolio/folio09.jpg" alt="">
-                                <h5>Portfolio Project</h5>
+                                <img src="images/portfolio/pf9.png" alt="">
                                 <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="images/portfolio/folio09.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                                    <a class="preview btn btn-outlined btn-primary" href="images/portfolio/pf9.png" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                                 </div>
                             </div>
                         </li><!--/.portfolio-item-->
@@ -462,11 +395,14 @@
 	                                    <blockquote>
 	                                        <div class="row">
 	                                            <div class="col-sm-3 text-center">
-	                                                <img class="img-responsive" src="images/team/team01.jpg" style="width: 100px;height:100px;">
 	                                            </div>
 	                                            <div class="col-sm-9">
-	                                                <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!</p>
-	                                                <small>Someone famous</small>
+                                                    <p>
+                                                        I just want to start off by saying a big thank you for helping my big day look marvelous. My husband and I had so many compliments.
+                                                        Our wedding decor was elegant and incredibly lovely. Our guests loved it and so did we.
+                                                        I would recommend Belle Event Decor to anyone looking for a decorator to fulfill their vision above and behond.
+                                                    </p>
+	                                                <small>Kethia</small>
 	                                            </div>
 	                                        </div>
 	                                    </blockquote>
@@ -476,11 +412,13 @@
 	                                    <blockquote>
 	                                        <div class="row">
 	                                            <div class="col-sm-3 text-center">
-	                                                <img class="img-responsive" src="images/team/team02.jpg" style="width: 100px;height:100px;">
 	                                            </div>
 	                                            <div class="col-sm-9">
-	                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nec lacus ut tempor. Mauris.</p>
-	                                                <small>Someone famous</small>
+                                                    <p>
+                                                        Belle Event Decor was the best choice I could have made. They did a. Outstanding job by provided absolutely stunning Decor for my mom's birthday.
+                                                        I would just like to thank you again for being part of my mom's special day, we truly appreciate all the hard work you put into it.
+                                                    </p>
+	                                                <small>Felichia</small>
 	                                            </div>
 	                                        </div>
 	                                    </blockquote>
@@ -490,11 +428,13 @@
 	                                    <blockquote>
 	                                        <div class="row">
 	                                            <div class="col-sm-3 text-center">
-	                                                <img class="img-responsive" src="images/team/team03.jpg" style="width: 100px;height:100px;">
-	                                            </div>
+                                                </div>
 	                                            <div class="col-sm-9">
-	                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.</p>
-	                                                <small>Someone famous</small>
+                                                    <p>
+                                                        Belle Event Decor provided an exceptional top-of-the-line design for my special occasion. It was a last minute planning but their service was friendly,
+                                                        attentive and prompt. My vision came to life with their expertise and professionalism. Thank you
+                                                    </p>
+	                                                <small>Gigi</small>
 	                                            </div>
 	                                        </div>
 	                                    </blockquote>
@@ -506,49 +446,6 @@
 	                <div class="gap"></div>
 	      		</div>
       		</section>
-
-<!--			<div id="mapwrapper">-->
-<!--&lt;!&ndash;				<div id="map"></div>&ndash;&gt;-->
-<!--			</div>-->
-
-<!--            <section id="contact" class="white">-->
-<!--                <div class="container">-->
-<!--                	<div class="gap"></div>-->
-<!--                    <div class="center gap fade-down section-heading">-->
-<!--                        <h2 class="main-title">Get In Touch with </h2>-->
-<!--                        <hr>-->
-<!--                        <p>Of an or game gate west face shed. ﻿no great but music too old found arose.</p>-->
-<!--                    </div>-->
-<!--                    <div class="gap"></div>-->
-<!--                    <div class="row">-->
-<!--                        <div class="col-md-4 fade-up">-->
-<!--                            <h3>Contact Information</h3>-->
-<!--                            <p><span class="icon icon-home"></span>Time Square, New York<br/>-->
-<!--                                <span class="icon icon-phone"></span>+36 65984 405<br/>-->
-<!--                                <span class="icon icon-mobile"></span>+36 65984 405<br/>-->
-<!--                                <span class="icon icon-envelop"></span> <a href="#">email@infinityteam.com</a> <br/>-->
-<!--                                <span class="icon icon-twitter"></span> <a href="#">@infinityteam.com</a> <br/>-->
-<!--                                <span class="icon icon-facebook"></span> <a href="#">Infinity Agency</a> <br/>-->
-<!--                            </p>-->
-<!--                        </div>&lt;!&ndash; col &ndash;&gt;-->
-
-<!--                        <div class="col-md-8 fade-up">-->
-<!--                            <h3>Drop Us A Message</h3>-->
-<!--                            <br>-->
-<!--                            <br>-->
-<!--                            <div id="message"></div>-->
-<!--                            <form method="post" action="sendemail.php" id="contactform">-->
-<!--                                <input type="text" name="name" id="name" placeholder="Name" />-->
-<!--                                <input type="text" name="email" id="email" placeholder="Email" />-->
-<!--                                <input type="text" name="website" id="website" placeholder="Website" />-->
-<!--                                <textarea name="comments" id="comments" placeholder="Comments"></textarea>-->
-<!--                                <input class="btn btn-outlined btn-primary" type="submit" name="submit" value="Submit" />-->
-<!--                            </form>-->
-<!--                        </div>&lt;!&ndash; col &ndash;&gt;-->
-<!--                    </div>&lt;!&ndash; row &ndash;&gt;-->
-<!--                    <div class="gap"></div>-->
-<!--                </div>-->
-<!--            </section>-->
         </div>
 
 <div id="footer-wrapper">
